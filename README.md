@@ -13,14 +13,10 @@
 - Looping options and full control from the interface.
 - Digitally signed executable for added Windows security.
 ---
-
----
 ## 💻 Requirements
 - Windows 10/11
 - Python 3.13 (if running the `.py` version)
 - Executable ready to use without Python.
----
-
 ---
 ## 🚀 Installation / Running
 1. Clone the repository:
@@ -41,8 +37,6 @@ Or if running from Python:
 python supermechs.py
 ```
 ---
-
----
 ## ⚙️ Usage
 
 - Enter the URL you want to monitor.
@@ -52,9 +46,10 @@ python supermechs.py
 - Press STOP 🛑 to stop monitoring.
 - Check the live log for all events.
 ---
-
----
 ## 🔐 Security
 The executable is digitally signed with a self-signed certificate, so Windows recognizes it as secure.
 Note: Windows may still show warnings with self-signed certificates. For higher trust, an official CA-issued certificate is recommended.
+---
+## 📄 License
+This project is licensed under the MIT License. You are free to use and modify it.
 ---
