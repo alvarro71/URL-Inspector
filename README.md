@@ -31,7 +31,6 @@ git clone https://github.com/alvarro71/URL-Inspector.git
 2. Run the .exe directly from the dist folder:
 
 ```bash
-# Windows
 cd url-inspector/dist
 "URL Inspector.exe"
 ```
