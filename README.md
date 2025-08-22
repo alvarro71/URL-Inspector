@@ -22,7 +22,7 @@
 1. Clone the repository:
 
 ```bash
-git clone (https://github.com/alvarro71/URL-Inspector.git)
+git clone https://github.com/alvarro71/URL-Inspector.git
 ```
 
 2. Run the .exe directly from the dist folder:
