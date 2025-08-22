@@ -4,8 +4,14 @@ import threading
 import tkinter as tk
 from tkinter import ttk, messagebox
 import winsound
+import platform
 
 monitoring = False
+
+if platform.system() == "Windows":
+    import winsound
+else:
+    winsound = None
 
 def log_message(icon, message, color="white"):
     """Add a message to the log panel."""
@@ -28,7 +34,10 @@ def check_site(url, options, interval, loop):
                 if options["notify_online"] and last_status != True:
                     if options["use_popups"]:
                         show_popup("✅", f"{url} is ONLINE")
+                    if winsound:
                         winsound.MessageBeep(winsound.MB_ICONASTERISK)
+                    else:
+                        root.bell()
                 last_status = True
 
             elif not online and options["notify_offline"] and last_status != False:
