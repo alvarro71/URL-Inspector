@@ -45,11 +45,21 @@ python url-inspector-py.py
 - Press START 🚀 to begin monitoring.
 - Press STOP 🛑 to stop monitoring.
 - Check the live log for all events.
+
+<img width="790" height="790" alt="Captura de pantalla 2025-08-22 163217" src="https://github.com/user-attachments/assets/3af3e46f-1fed-457c-98f5-526156a87384" />
+
+## EXAMPLE
+
+![0822](https://github.com/user-attachments/assets/28999f3d-778e-4565-b05a-ef9772a26b47)
+
 ---
+
 ## 🔐 Security
 The executable is digitally signed with a self-signed certificate, so Windows recognizes it as secure.
 Note: Windows may still show warnings with self-signed certificates. For higher trust, an official CA-issued certificate is recommended.
+
 ---
 ## 📄 License
 This project is licensed under the MIT License. You are free to use and modify it.
+
 ---
