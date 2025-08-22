@@ -1,6 +1,9 @@
-# 🌐 URL Inspector
+#  URL Inspector
+<img width="100" height="100" alt="adsa" src="https://github.com/user-attachments/assets/a65a32c1-1b38-4bd8-bb64-30a12c5dbda4" />
 
 **URL Inspector** is a Windows desktop application that allows you to **monitor the status of websites in real-time**, with notifications, popups, and live log tracking.
+
+
 
 ---
 ## 🔹 Features
@@ -15,7 +18,7 @@
 ---
 ## 💻 Requirements
 - Windows 10/11
-- Python 3.13 (if running the `.py` version)
+- Python 3.10+  (if running the `.py` version)
 - Executable ready to use without Python.
 ---
 ## 🚀 Installation / Running
@@ -28,7 +31,9 @@ git clone https://github.com/alvarro71/URL-Inspector.git
 2. Run the .exe directly from the dist folder:
 
 ```bash
-C:\Users\YourUser\Desktop\url-inspector\dist\URL Inspector.exe
+# Windows
+cd url-inspector/dist
+"URL Inspector.exe"
 ```
 
 Or if running from Python:
@@ -36,7 +41,9 @@ Or if running from Python:
 ```bash
 python url-inspector-py.py
 ```
+
 ---
+
 ## ⚙️ Usage
 
 - Enter the URL you want to monitor.
@@ -46,7 +53,7 @@ python url-inspector-py.py
 - Press STOP 🛑 to stop monitoring.
 - Check the live log for all events.
 
-<img width="790" height="790" alt="Captura de pantalla 2025-08-22 163217" src="https://github.com/user-attachments/assets/3af3e46f-1fed-457c-98f5-526156a87384" />
+<img width="450" height="450" alt="Captura de pantalla 2025-08-22 163217" src="https://github.com/user-attachments/assets/3af3e46f-1fed-457c-98f5-526156a87384" />
 
 ## EXAMPLE
 
