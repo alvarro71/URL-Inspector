@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['supermechs.py'],
+    ['url-inspector-py.py'],
     pathex=[],
     binaries=[],
     datas=[],
