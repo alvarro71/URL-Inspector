@@ -22,19 +22,19 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/url-inspector.git
+git clone (https://github.com/alvarro71/URL-Inspector.git)
 ```
 
 2. Run the .exe directly from the dist folder:
 
 ```bash
-C:\Users\YourUser\Desktop\supermechs-inspector\dist\URL Inspector.exe
+C:\Users\YourUser\Desktop\url-inspector\dist\URL Inspector.exe
 ```
 
 Or if running from Python:
 
 ```bash
-python supermechs.py
+python url-inspector-py.py
 ```
 ---
 ## ⚙️ Usage
